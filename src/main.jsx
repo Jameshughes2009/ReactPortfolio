@@ -4,6 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx"
 import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
+import Work from "./pages/Work.jsx";
+import Resume from "./pages/Resume.jsx";
 
 
 

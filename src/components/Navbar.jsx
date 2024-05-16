@@ -23,6 +23,8 @@ function Navbar() {
             navbarToggler.removeEventListener("click", handleNavbarToggle);
         };
 }, []);
+
 }
+
 
 export default Navbar
