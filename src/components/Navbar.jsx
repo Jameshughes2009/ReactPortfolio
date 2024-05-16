@@ -46,6 +46,14 @@ return(
                                         About restart here!!!!!
                                     </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link
+                                    to="/Work"
+                                    className={`nav-link ${currentPage ==="/Work" && "active"}`}
+                                >
+                                    Portfolio
+                                </Link>
+                            </li>
                         </ul>
                     </div>
             </div>
