@@ -54,6 +54,16 @@ return(
                                     Portfolio
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link
+                                to="/Contact"
+                                className={`nav-link ${
+                                    currentPage ==="/Contact" && "active"
+                                }`}
+                                >
+                                    Contact
+                                </Link>
+                            </li>
                         </ul>
                     </div>
             </div>
