@@ -6,6 +6,7 @@ import App from "./App.jsx"
 import About from "./pages/About.jsx";
 
 
+
 const router = createBrowserRouter([
     {
         path: "/",
