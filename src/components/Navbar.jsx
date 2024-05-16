@@ -43,7 +43,7 @@ return(
                                 <Link
                                     to="/"
                                     className={`nav-link ${currentPage === "/" && "active"}`}>
-                                        About
+                                        About restart here!!!!!
                                     </Link>
                             </li>
                         </ul>
