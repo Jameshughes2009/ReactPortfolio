@@ -8,7 +8,18 @@ export default function About() {
             <div className="row">
                 <div className="col-md-4 text center">
                     <img></img>
-                    <ul className="list-unstyled mt-3"></ul>
+                    <ul className="list-unstyled mt-3">
+                        <li>
+                            <strong>HardWorking</strong> Currenlty working full time and doing this class.
+                        </li>
+                    </ul>
+                </div>
+                <div className="col-md-8">
+                    <section className="right-container text-left">
+                        <p> Hi My name is James Hughes</p>
+                        <br/>
+                        <p> testing</p>
+                    </section>
                 </div>
             </div>
         </div>
