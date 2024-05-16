@@ -23,7 +23,35 @@ function Navbar() {
             navbarToggler.removeEventListener("click", handleNavbarToggle);
         };
 }, []);
-
+return(
+    <header className="navbarHeader">
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid">
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        className="collapse navbar-collapse justify-content-end"
+                        id="navbarNav"
+                    >
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link
+                                    to="/"
+                                    className={`nav-link ${currentPage === "/" && "active"}`}>
+                                        About
+                                    </Link>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+)
 }
 
 
