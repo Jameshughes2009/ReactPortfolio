@@ -9,6 +9,17 @@
     margin-top: 5em;
     margin-bottom: 9em;
     padding: "20px";
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: "2px 2px 2px rgba(0, 0, 0, 0.2)";
+}
+
+.contact-container .btn:hover {
+    background-color: rgb(152, 0, 254);
+    opacity: 0.5;
+    transform: scale(1.05);
+}
+
+.icons {
+    color: rgb(255, 0, 0);
+    transition: color 0.3s ease-in-out;
 }
