@@ -13,5 +13,5 @@ import { FaBootstrap } from "react-icons/fa";
 
 export default function Resume() {
     const fileUrl = 
-        ""
+        "https://github.com/Jameshughes2009/ReactPortfolio/blob/main/src/assets/files/james%20Hughes%20resume%20(edited).docx"
 }
