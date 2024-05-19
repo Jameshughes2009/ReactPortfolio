@@ -44,7 +44,29 @@ export default function ContactForm() {
     return (
         <div className="container contact-container">
             <h2 className="contact-me">Contact Me</h2>
-            <form onSubmit={handleSubmit}></form>
+            <form onSubmit={handleSubmit}>
+                <div className="form-group">
+                    <label htmlFor="name"> Name </label>
+                    <input
+                        type="text"
+                        className={`form-control ${
+                            validationErrors.name ? "is-invalid": ""
+                        }`}
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
+                        required
+                    />
+                    {validationErrors.email && (
+                        <div className="invalid-feedback">You Must Enter an Valid Email </div>
+                    )}
+                </div>
+                <div className="form-group">
+                    
+                </div>
+            </form>
         </div>
     )
 }
