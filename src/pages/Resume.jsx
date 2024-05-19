@@ -12,5 +12,6 @@ import { SiMongodb } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 
 export default function Resume() {
-    
+    const fileUrl = 
+        ""
 }
