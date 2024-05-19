@@ -77,7 +77,31 @@ export default function ContactForm() {
                         onBlur={handleBlur}
                         required
                     />
+                    {validationErrors.email && (
+                        <div className="invalid-feedback"> Email is a required field</div>
+                    )}
                 </div>
+                <div className="form-group">
+                    <label htmlFor="message">Message:</label>
+                    <textarea
+                        className={`form-control ${
+                            validationErrors.message ? "is-invalid": ""
+                        }`}
+                        id="message"
+                        name="message"
+                        rows="5"
+                        value={formData.message}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
+                        required
+                    ></textarea>
+                    {validationErrors.message && (
+                        <div className="invalid-feedback"> Message not filled. </div>
+                    )}
+                </div>
+                <button type="submit" className="btn btn-primary">
+                    Submit
+                </button>
             </form>
         </div>
     )
