@@ -55,6 +55,23 @@ export default function Resume() {
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title"> Backend Features</h5>
+                            <p className="card-text">
+                                <ul>
+                                    <li>
+                                        <GrMysql size={30} /> MySQL
+                                    </li>
+                                    <li>
+                                        <SiSequelize size={30} /> Sequel
+                                    </li>
+                                    <li>
+                                        <FaNodeJs size={30} />
+                                        NodeJs
+                                    </li>
+                                    <li>
+                                        
+                                    </li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
