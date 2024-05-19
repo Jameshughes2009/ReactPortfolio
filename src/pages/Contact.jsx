@@ -14,6 +14,37 @@ export default function ContactForm() {
     });
 
     const handleChange = (e) => {
-        
-    }
+        const {name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
+
+    const handleBlur = (e) => {
+        const {name, value} = e.target;
+        if (value.trim() === "") {
+            setValidationErrors({
+                ...validationErrors,
+                [name]: true,
+            });
+        } else {
+            setValidationErrors({
+                ...validationErrors,
+                [name]: false,
+            });
+        }
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log("Submitted", formData)
+    };
+
+    return (
+        <div className="container contact-container">
+            <h2 className="contact-me">Contact Me</h2>
+            <form onSubmit={handleSubmit}></form>
+        </div>
+    )
 }
