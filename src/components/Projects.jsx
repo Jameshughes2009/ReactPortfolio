@@ -37,8 +37,17 @@ export default function Projects() {
                                         id="card-anchor"
                                     >
                                         <FaGithubSquare size={30} className="github-icon" />
+                                        Github Repo
                                     </a>
-                                    
+                                    <a
+                                        href={project.projectUrl}
+                                        target="_blank"
+                                        className="card-text"
+                                        id="card-anchor"
+                                    >
+                                        <GrDeploy size={25} className="deploy-icon" />
+                                        Deployed Application
+                                    </a>
                                 </div>
                             </div>
                         </div>
