@@ -17,3 +17,8 @@ The main objective of this project is to create a single-page application portfo
 - Andru Sanchez
 
 - Uoft Bootcamp module 20 mini project
+
+
+## Contact Info 
+- GitHub: [JamesHughes](https://github.com/Jameshughes2009)
+- Email: jameshughes2009@hotmail.com
