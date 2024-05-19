@@ -60,11 +60,23 @@ export default function ContactForm() {
                         required
                     />
                     {validationErrors.email && (
-                        <div className="invalid-feedback">You Must Enter an Valid Email </div>
+                        <div className="invalid-feedback">Name is a Required Field </div>
                     )}
                 </div>
                 <div className="form-group">
-                    
+                    <label htmlFor="email">Email Address Field:</label>
+                    <input
+                        type="email"
+                        className={`form-control ${
+                            validationErrors.email ? "is-invalid": ""
+                        }` }
+                        id="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
+                        required
+                    />
                 </div>
             </form>
         </div>
