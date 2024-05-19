@@ -98,7 +98,39 @@ export default function Projects() {
                 </div>
             </div>
 
-            
+            <div id="deployed-apps-container" className="container">
+                <h2 className="project-title"> Class Notes Link </h2>
+                <div className="row">
+                    {school.map((project, index) =>(
+                        <div key={index} className="col-md-4 mb-4">
+                            <div className="card">
+                                <img
+                                    id="project-images"
+                                    src={project.projectName}
+                                    className="card-img-top"
+                                    alt={project.projectName}
+                                />
+
+                                <div className="card-body">
+                                    <h5 className="card-title">{project.projectName}</h5>
+                                    <p className="card-text">
+                                        Class: {project.projectDescription}
+                                    </p>
+                                    <a
+                                        href={project.projectUrl}
+                                        target="_blank"
+                                        className="card-text"
+                                        id="card-anchor"
+                                    >
+                                        <FaGithubSquare size={30} className="github-icon" />
+                                        Repo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </>
-    )
+    );
 }
