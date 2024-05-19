@@ -10,7 +10,7 @@ export default function About() {
                     <img></img>
                     <ul className="list-unstyled mt-3">
                         <li>
-                            <strong>HardWorking</strong> Currenlty working full time and doing this class.
+                            <strong>HardWorking</strong> Currenlty working full time at Microbix Biosystems Inc and doing this class. It has been a great expreice to be part of this and have the backing of my employeer. The bootcamp I will say needs so work as i belive there is not enough time even with the partime camp to full learn all content!
                         </li>
                     </ul>
                 </div>
@@ -18,7 +18,7 @@ export default function About() {
                     <section className="right-container text-left">
                         <p> Hi My name is James Hughes</p>
                         <br/>
-                        <p> testing</p>
+                        <p> I am Jesus</p>
                     </section>
                 </div>
             </div>
