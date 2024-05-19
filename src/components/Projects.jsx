@@ -25,6 +25,21 @@ export default function Projects() {
                                     className="card-img-top"
                                     alt={project.projectName}
                                 />
+                                <div className="card-body">
+                                    <h5 className="card-title">{project.projectName}</h5>
+                                    <p className="card-text">
+                                        Project: {project.projectDescription}
+                                    </p>
+                                    <a
+                                        href={project.projectGithub}
+                                        target="_blank"
+                                        className="card-text"
+                                        id="card-anchor"
+                                    >
+                                        <FaGithubSquare size={30} className="github-icon" />
+                                    </a>
+                                    
+                                </div>
                             </div>
                         </div>
                     ))}
