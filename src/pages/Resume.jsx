@@ -80,6 +80,18 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
+
+            <div className="mt-5">
+                <p>Download Resume</p>
+                <a
+                    href={fileUrl}
+                    download=""
+                    className="btn btn-primary"
+                    id="download-btn"
+                >
+                    Click to Download
+                </a>
+            </div>
         </div>
-    )
+    );
 }
