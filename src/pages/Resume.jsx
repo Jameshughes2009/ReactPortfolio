@@ -51,7 +51,13 @@ export default function Resume() {
                     </div>
                 </div>
 
-                
+                <div className="col-md-6">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title"> Backend Features</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
