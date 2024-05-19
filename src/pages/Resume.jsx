@@ -68,7 +68,11 @@ export default function Resume() {
                                         NodeJs
                                     </li>
                                     <li>
-                                        
+                                        <SiExpress size={30} />
+                                        Express
+                                    </li>
+                                    <li>
+                                        <SiMongodb size={30} />
                                     </li>
                                 </ul>
                             </p>
