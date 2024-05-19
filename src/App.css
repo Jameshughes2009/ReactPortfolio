@@ -35,21 +35,21 @@
 
 .card-text a {
     margin: 1rem;
-  }
-  
-  .github-icon {
+}
+
+.github-icon {
     margin-right: 5px;
-  }
-  
-  .deploy-icon {
+}
+
+.deploy-icon {
     margin-right: 5px;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: none;
-  }
-  
-  #project-images {
+}
+
+#project-images {
     max-width: 100%;
     height: 225px;
-  }
+}
