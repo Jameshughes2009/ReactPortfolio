@@ -24,6 +24,9 @@ html{
     opacity: 0.5;
     transform: scale(1.05);
 }
+.navbarHeader{
+    background-color: purple;
+}
 
 .icons {
     color: rgb(255, 0, 0);
@@ -74,10 +77,23 @@ ul {
     font-size: 50px;
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
 }
 
 #download-btn {
     background-color: red;
     border: 0px;
     margin-top: 200px
+}
+.mt-5 {
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link.active {
+    font-weight: bolder;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
