@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className="container">
             <div className="text-center">
-                <h1 className="dev-name"> James Hughes </h1>
+                <h1 className="name"> James Hughes </h1>
                 <h5 className="dev-title"> UofT Full Stack WebDev Module 20</h5>
             </div>
             <div className="row">

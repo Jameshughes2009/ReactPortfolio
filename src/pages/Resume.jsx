@@ -21,7 +21,7 @@ export default function Resume() {
                 <div className="col-md-6">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Frontend Setup</h5>
+                            <h5 className="card-title">Frontend Tech Used</h5>
                             <p className="card-text">
                                 <ul>
                                     <li>
@@ -37,10 +37,10 @@ export default function Resume() {
                                         Bootstrap
                                     </li>
                                     <li>
-                                        <IoLogoJavascript size={23} />
-                                        Java + <DiJqueryLogo size={30}/>
+                                        <DiJqueryLogo size={30}/>
                                         JQuery
                                     </li>
+                                    
                                     <li>
                                         <FaReact size={27} />
                                         React
@@ -54,14 +54,14 @@ export default function Resume() {
                 <div className="col-md-6">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title"> Backend Features</h5>
+                            <h5 className="card-title"> Backend Tech Used</h5>
                             <p className="card-text">
                                 <ul>
                                     <li>
                                         <GrMysql size={30} /> MySQL
                                     </li>
                                     <li>
-                                        <SiSequelize size={30} /> Sequel
+                                        <SiSequelize size={30} /> Sequelize
                                     </li>
                                     <li>
                                         <FaNodeJs size={30} />
@@ -69,10 +69,11 @@ export default function Resume() {
                                     </li>
                                     <li>
                                         <SiExpress size={30} />
-                                        Express
+                                        Express.js
                                     </li>
                                     <li>
                                         <SiMongodb size={30} />
+                                        Mongodb
                                     </li>
                                 </ul>
                             </p>
