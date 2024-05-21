@@ -13,6 +13,12 @@ export default function About() {
                         <li>
                             <strong>Hardworking</strong> 
                         </li>
+                        <li>
+                            <strong>Qick Learner</strong>
+                        </li>
+                        <li>
+                            <strong>McMaster Economics</strong>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-md-8">
