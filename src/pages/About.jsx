@@ -17,7 +17,7 @@ export default function About() {
                             <strong>Qick Learner</strong>
                         </li>
                         <li>
-                            <strong>McMaster Economics</strong>
+                            <strong>Reliable</strong>
                         </li>
                     </ul>
                 </div>
@@ -28,7 +28,7 @@ export default function About() {
                         </p>
                         <br/>
                         <p> 
-                            I hope you'll expore my GitHub acciunt to get an insight it all the work that has been 
+                            I hope you'll expore my GitHub acciunt to get an insight it all the work that has been done durring this 6 month course. My new skill learned from this full stack bootcamp include, HTML/CSS , Java, JQuery, Postman, Express.js, OOP, ORM, MVC and many other skills thoughout the course.
                         </p>
                     </section>
                 </div>
