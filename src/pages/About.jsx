@@ -7,7 +7,8 @@ export default function About() {
             </div>
             <div className="row">
                 <div className="col-md-4 text center">
-                    <img></img>
+                    <img>
+                    </img>
                     <ul className="list-unstyled mt-3">
                         <li>
                             <strong>HardWorking</strong> Currenlty working full time at Microbix Biosystems Inc and doing this class. It has been a great expreice to be part of this and have the backing of my employeer. The bootcamp I will say needs so work as i belive there is not enough time even with the partime camp to full learn all content!
@@ -25,4 +26,6 @@ export default function About() {
         </div>
     )
 }
+
+import profilePic from "../assets/files/"
 // adding info for images later
