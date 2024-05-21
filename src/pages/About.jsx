@@ -7,7 +7,11 @@ export default function About() {
             </div>
             <div className="row">
                 <div className="col-md-3 text center">
-                    <img>
+                    <img
+                        src={profilePic}
+                        alt="profilePic"
+                        className="img-fuid profile-image"
+                        style={{ borderRadius: "15px"}}>
                     </img>
                     <h4>Current Skills List</h4>
                     <ul className="list-unstyled mt-3">
@@ -29,7 +33,7 @@ export default function About() {
                         </p>
                         <br/>
                         <p> 
-                            I hope you'll expore my GitHub acciunt to get an insight it all the work that has been done durring this 6 month course. My new skill learned from this full stack bootcamp include, HTML/CSS , Java, JQuery, Postman, Express.js, OOP, ORM, MVC and many other skills thoughout the course. Please find the links to both my github account and linkedin profile in the bottom left of all pages!
+                            I hope you'll get the chance to expore my GitHub account to get some insight in all the work that has been done durring this 6 mounth course. My new skill learned from this full stack bootcamp include, HTML/CSS , Java, JQuery, Postman, Express.js, OOP, ORM, MVC and many other skills thoughout the course. Please find the links to both my github account and linkedin profile in the bottom left of all pages!
                         </p>
                     </section>
                 </div>
@@ -38,5 +42,5 @@ export default function About() {
     )
 }
 
-// import profilePic from "../assets/files/"
+import profilePic from "../assets/picture2025.png"
 // adding info for images later
