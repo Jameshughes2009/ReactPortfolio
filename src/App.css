@@ -74,6 +74,9 @@ ul {
     width: 200px;
     height: auto;
 }
+.project-title {
+    font-weight: bolder;
+}
 
 .name {
     font-size: 50px;

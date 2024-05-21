@@ -9,7 +9,7 @@ export default function Projects() {
     const [projects] = useState(groupPojects);
     const [school] = useState(schoolRepo);
     const [module] = useState(moduleList);
-
+// got through and test name conevtions
 
     return(
         <>
