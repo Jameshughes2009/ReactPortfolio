@@ -11,15 +11,19 @@ export default function About() {
                     </img>
                     <ul className="list-unstyled mt-3">
                         <li>
-                            <strong>HardWorking</strong> Currenlty working full time at Microbix Biosystems Inc and doing this class. It has been a great expreice to be part of this and have the backing of my employeer. The bootcamp I will say needs so work as i belive there is not enough time even with the partime camp to full learn all content!
+                            <strong>Hardworking</strong> 
                         </li>
                     </ul>
                 </div>
                 <div className="col-md-8">
                     <section className="right-container text-left">
-                        <p> Hi My name is James Hughes</p>
+                        <p> 
+                        Currenlty working full time at Microbix Biosystems Inc and doing this class. It has been a great expreice to be part of this and have the backing of my employeer. The bootcamp I will say needs so work as i belive there is not enough time even with the partime camp to full learn all content!
+                        </p>
                         <br/>
-                        <p> I am Jesus</p>
+                        <p> 
+                            I hope you'll expore my GitHub acciunt to get an insight it all the work that has been 
+                        </p>
                     </section>
                 </div>
             </div>
@@ -27,5 +31,5 @@ export default function About() {
     )
 }
 
-import profilePic from "../assets/files/"
+// import profilePic from "../assets/files/"
 // adding info for images later
